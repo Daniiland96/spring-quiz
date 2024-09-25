@@ -3,6 +3,10 @@ spring:
     log-startup-info: true # выводим служебную информацию
     banner-mode: off
 
+logging.level:
+#  root: TRACE
+  ru.yandex.practicum.quiz: TRACE
+
 spring-quiz:
   report:
     # spring-quiz.report.mode — режим формирования отчёта;
